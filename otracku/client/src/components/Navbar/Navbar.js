@@ -6,7 +6,7 @@ import './Navbar.css';
 class NavHome extends Component {
     render() {
         return (
-            <Navbar brand='O - T r A c K - U' right>
+            <Navbar id='navbar' brand='O - T r A c K - U' right>
                 <NavItem><Link to='/home'>Home</Link></NavItem>
                 <NavItem><Link to='/new'>New</Link></NavItem>
 

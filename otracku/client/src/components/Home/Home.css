@@ -1,0 +1,20 @@
+#inputSection {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(52, 80, 102);
+    padding: 40px;
+}
+
+#searchBtn {
+    display: block;
+    margin: auto;
+    background-color: #e28729;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+#inputText {
+    color: white;
+    font-size: 30px;
+}

@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './Home.css';
+import { Button } from 'react-materialize';
 
 class Home extends Component {
     constructor(props, context) {
@@ -27,15 +28,19 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                <form>
+                <form id="inputSection">
                     <label>Anime Name</label>
                     <input
+                        id="inputText"
                         type="text"
                         value={this.state.title}
                         placeholder="Enter An Anime Name"
                         onChange={this.handleTitle}
                     />
-                    <button onClick={this.handleSubmit}>Search</button>
+                    <Button id="searchBtn"
+                        onClick={this.handleSubmit} >
+                        Search
+                    </Button>
                 </form>
             </Fragment>
         );
